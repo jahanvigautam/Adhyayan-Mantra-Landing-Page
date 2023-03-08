@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Shantell+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+  max-width: 80vw;
+  font-family: 'Shantell Sans', cursive;
+}
+
+.navbar{
+  display: flex;
+  height: 120px;
+  color: darkslategrey;
+}
+
+.navbar li{
+  list-style: none;
+  margin: 0 12px;
+  color: darkslategrey;
+}
+
+.topleft{
+  width: 50%;
+  height: 70vh;
+}
+
+.topright{
+  height: 70vh;
+  width: 50%;
+}
+
+.section1{
+  padding: 38px;
+  max-height: 200vh;
+  color: darkslategrey;
+}
+
+.section1 h1{
+  font-size: 2.5rem;
+  color: darkslategrey;
+}
+
+.section2{
+  padding: 50px;
+  color: darkslategrey;
+}
+
+.section2 h1{
+  font-size: 2.5rem;
+}
+
+.section2 p{
+  padding: 0 8vw;
+  text-align: center;
+}
+
+.box{
+  padding: 8px 0;
+  margin: 12px 22px;
+  border-radius: 3px;
+  min-width: 33vw;
+  border: 2px solid rgb(255 115 92);
+  text-align: center;
+}
+
+.box h2{
+  padding: 15px 0;
+  font-size: 1.5rem;
+}
+
+.box ul{
+  list-style-type: none;
+}
+
+.box ul li{
+  margin: 14px 2px;
+}
+
+.plantable{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section3 table{
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: 130px;
+  border: 3px solid rgb(255 115 92);
+  border-collapse: collapse;
+}
+
+.section3 table th{
+  width: 23vw;
+  border-bottom: 3px solid rgb(255 115 92);
+  border-right: 3px solid rgb(255 115 92);
+  padding: 15px 0;
+}
+
+.section3 table td{
+  border-right: 3px solid rgb(255 115 92);
+  border-bottom: 3px solid rgb(255 115 92);
+}
+
+.section3 h1{
+  font-size: 2.3rem;
+}
+
+.section3{
+  padding: 50px;
+  color: darkslategrey;
+}
+
+footer{
+  padding: 45px;
+  text-align: center;
+  color: darkslategrey;
+}
+
+.buttons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 12px;
+}
+
+.deal{
+  font-size: 1.2rem;
+  font-weight: bolder;
+  margin: 12px 0;
+}
